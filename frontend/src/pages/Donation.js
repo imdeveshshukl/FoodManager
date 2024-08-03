@@ -26,7 +26,7 @@ const Donation = () => {
       {
         throw new Error("No token found");
       }
-      const response=await axios.post("http://localhost:5000/donate",
+      const response=await axios.post("https://foodmanager-z62f.onrender.com/donate",
       donationData,
       {
         headers: {

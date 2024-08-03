@@ -25,7 +25,7 @@ const Inventory = () => {
         throw new Error("No token found");
       }
 
-      const response = await axios.get("http://localhost:5000/inventory", {
+      const response = await axios.get("https://foodmanager-z62f.onrender.com/inventory", {
         headers: {
           Authorization: token,
         },
@@ -74,7 +74,7 @@ const Inventory = () => {
       }
 
       const response = await axios.post(
-        "http://localhost:5000/inventory",
+        "https://foodmanager-z62f.onrender.com/inventory",
         inventoryData,
         {
           headers: {
@@ -104,7 +104,7 @@ const Inventory = () => {
       }
 
       const response = await axios.put(
-        `http://localhost:5000/inventory/${itemId}`,
+        `https://foodmanager-z62f.onrender.com/inventory/${itemId}`,
         { consumed },
         {
           headers: {

@@ -40,7 +40,7 @@ const SignUp = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/signup",
+        "https://foodmanager-z62f.onrender.com/signup",
         userData
       );
       
@@ -85,7 +85,7 @@ const SignUp = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/signup",
+        "https://foodmanager-z62f.onrender.com/signup",
         businessData
       );
       const data = response.data;

@@ -22,7 +22,7 @@ const MonthlyQuantity = () => {
         throw new Error("No token found");
       }
 
-      const response = await axios.get("http://localhost:5000/inventory", {
+      const response = await axios.get("https://foodmanager-z62f.onrender.com/inventory", {
         headers: {
           Authorization: token,
         },

@@ -23,7 +23,7 @@ const MonthlyWaste = () => {
         throw new Error("No token found");
       }
 
-      const response = await axios.get("http://localhost:5000/waste", {
+      const response = await axios.get("https://foodmanager-z62f.onrender.com/waste", {
         headers: {
           Authorization: token,
         },
