@@ -25,7 +25,7 @@
 - **Donation Page:** A dedicated page for users to register and track food donations.
 - **Inventory System:** Efficient management of food inventory with real-time updates and categorization.
 - **Kitchen Analytics:** Data analytics to provide insights into food management and optimize operations.
-- **Geolocation:** Integration with OpenStreetMap API to view geolocation for better coordination and tracking.
+- **Map Visuals On Donation Page:** Integration with OpenStreetMap API to view geolocation for better coordination and tracking.
 
 ### Deployment
 - **Frontend and Backend Deployed on Render:**
