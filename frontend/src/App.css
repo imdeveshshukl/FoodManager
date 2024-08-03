@@ -10,41 +10,6 @@ body {
     z-index: -10;
     overflow-x: hidden;
   }
-
-/*Video Section*/
-
-#layer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #4d1296;
-  opacity: 0.1;
-  z-index: -1;
-  }
-
-  .video-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80vh;
-    z-index: -2;
-    overflow: hidden;
-  }
-  
-  .video-background video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(50%);
-    
-  }
-
   /*Navabr*/
   
   nav {
@@ -1188,27 +1153,7 @@ opacity: 1;
   letter-spacing: normal;
 }
 
-/* .register-forget {
-  margin: 1rem 0;
-  display: flex;
-  justify-content: space-between;
-} */
 
-
-/* .theme-btn-container {
-  position: absolute;
-  left: 0;
-  bottom: 2rem;
-} 
-
-theme-btn {
-  cursor: pointer;
-  transition: all 0.3s ease-in;
-}
-
-.theme-btn:hover {
-  width: 40px !important;
-}  */
 
 @keyframes wobble {
   0% {
@@ -1490,37 +1435,7 @@ opacity: 1;
   height: 100vh;
   
 }
-/* 
-.menu {
-  display: flex;
-}
 
-.rs-navbar {
-  background : linear-gradient(0deg, #190335eb 35%, #400885);
-  width: 200px;
-  padding: 20px;
-  padding-bottom: 40rem;
-}
-
-.menu ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu li {
-  padding: 10px;
-  cursor: pointer;
-  color: #ffffff !important;
-  border-radius: 5px;
-  margin-bottom: 5px;
-  transition: background-color 0.3s;
-}
-
-.menu li:hover {
-  background-color: #6633cc;
-  text-decoration: none;
-} */
 
 .rs-content {
   flex: 1;
@@ -1530,180 +1445,6 @@ opacity: 1;
   
   
 }
-
-/* #recipeSearch {
-  display: none;
-} */
-
-/* .rs-form {
-  margin-bottom: 20px;
-}
-
-.rs-form .ingredient-input {
-  margin-bottom: 10px;
-}
-
-.rs-form .ingredient-input label {
-  display: block;
-  font-weight: bold;
-  color: #e95b85;
-}
-
-.rs-form .btn-input {
-  display: flex;
-}
-
-.rs-form .btn-input input[type="text"] {
-  flex: 100%;
-  padding: 5px;
-  font-size: 16px;
-}
-
-.rs-form .btn-input button {
-  
-  background-color: #6633cc;
-  color: #ffffff;
-  border: none;
-  padding: 5px 10px;
-  margin-left: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.rs-form .btn-input button:hover {
-  background-color: #4d2298;
-}
-
-.rs-form .option-input {
-  margin-bottom: 10px;
-}
-
-.rs-form .option-input label {
-  display: block;
-  font-weight: bold;
-}
-
-.rs-form .option-input select,
-.rs-form .option-input input[type="number"],
-.rs-form .option-input input[type="text"] {
-  width: 80%;
-  padding: 5px;
-  font-size: 16px;
-}
-
-.recipe-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  justify-items: center;
-}
-
-.recipe-row {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.recipe-column {
-  flex: 1 0 50%;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.recipe-column img {
-  object-fit:contain;
-  border-radius: 15px;
-}
-
-.recipe-column h3 {
-  margin: 0;
-}
-
-.recipe-ingredients {
-  margin-top: 10px;
-} */
-
-
-/*Nutrition Analysis*/
-/* 
-
-
-
-.nutritionAnalysis-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-  color: #e95b85;
-}
-.input-container textarea{
-    resize: none;
-}
-.nutrition-content {
-  padding: 20px;
-  padding-bottom: 40em;
-}
-
-.input-container {
-  margin-bottom: 10px;
-}
-
-.input-container label {
-  display: block;
-  font-weight: bold;
-}
-
-.input-container input[type="text"] {
-  width: 100%;
-  padding: 5px;
-  font-size: 16px;
-}
-
-.result-container {
-  margin-top: 20px;
-}
-
-.result-container h2 {
-  margin-bottom: 10px;
-}
-
-.result-container table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.result-container th,
-.result-container td {
-  padding: 5px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-}
-
-.result-container th {
-  font-weight: bold;
-}
-
-#nutri-analyze{
-    background-color: #6633cc;
-    color: #ffffff;
-    border: none;
-    width: fit-content;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-#nutri-analyze:hover{
-    background-color: #4d2298;
-}
-.error-message {
-  color: red;
-  font-weight: bold;
-}
-
-*/
-
 
 /*Problems Page*/
 #problems {
