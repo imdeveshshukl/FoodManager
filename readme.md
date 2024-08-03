@@ -9,14 +9,11 @@
 
 ### Solution
 - **Centralized Platform:** Develop a Food Management System (FMS) to streamline the donation, inventory, and distribution processes.
-- **Real-time Tracking:** Implement features for real-time tracking of food donations, inventory levels, and distribution status.
 - **Data Analytics:** Utilize data analytics to predict food needs, optimize distribution routes, and minimize waste.
 - **User Interface:** Create a user-friendly interface for donors, food banks, and distribution centers to manage contributions and monitor inventory.
 
 ### Donation Management
-- **Online Portal:** Develop an online portal for easy registration and tracking of food donations.
-- **Automated Alerts:** Set up automated alerts for upcoming food expirations, needed items, and donation confirmations.
-- **Recognition:** Provide acknowledgments and reports to donors, enhancing transparency and encouraging continued support.
+- **Online Portal:** Develop an online portal for easy registration and donations for food charity organisation.
 
 ### Inventory Management
 - **Real-time Updates:** Maintain real-time updates of food inventory levels to prevent overstocking or shortages.
